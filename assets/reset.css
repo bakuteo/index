@@ -15,23 +15,23 @@
     }
 @font-face {
         font-family: 'DINRoundOT';
-        src: url(/font/Din/DINRoundOT.otf);
+        src: url(../font/Din/DINRoundOT.otf);
         
 }
 @font-face {
         font-family: 'DINRoundOT-B';
-        src: url(/font/Din/DINRoundOT-Bold.otf);
+        src: url(../font/Din/DINRoundOT-Bold.otf);
         font-weight: bold;
 }
 @font-face {
         font-family: 'UTM';
-        src: url(/font/UTM-Futura-Extra.ttf);
+        src: url(../font/UTM-Futura-Extra.ttf);
         font-weight: bold;
 }
 
 @font-face{
         font-family: 'UTM-B';
-        src: url(/font/UTM-Futura-Extra.ttf);
+        src: url(../font/UTM-Futura-Extra.ttf);
         font-weight: 800px;
 }
 
