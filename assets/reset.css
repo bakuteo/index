@@ -7,31 +7,54 @@
         
 }
 #bg{
-        height: 1080px;
+        position: absolute;
+        min-width: 100%;
+        min-height:100%;
         background-color: white; /* For browsers that do not support gradients */
-            background-image: linear-gradient(0deg, rgba(255, 255, 255, 0.5) 0%, rgba(148, 205, 202, 0.425) 44.27%, rgba(232, 250, 236, 0.5) 100%),
-    linear-gradient(0deg, #FFFFFF, #FFFFFF)
+            background-image:url(../img/background.svg),
+            linear-gradient(0deg,
+             rgba(255, 255, 255, 0.5) 0%,
+              rgba(148, 205, 202, 0.425) 44.27%,
+               rgba(232, 250, 236, 0.5) 100%),
+                linear-gradient(0deg, #FFFFFF, #FFFFFF)
         !important;
+        background-repeat: no-repeat;
+        background-size: contain;
+}
+@media screen and (max-width: 1443px) and (min-width: 920px) {
+        *{
+            font-size:15px !important;
+        }
+    }
+    @media screen and (max-width: 1919px) and (min-width: 1444px) {
+        *{
+            font-size:17px !important;
+        }
+    }
+    @media screen and (min-width: 1920px) {
+        *{
+            font-size:20px !important;
+        }
     }
 @font-face {
         font-family: 'DINRoundOT';
-        src: url(/font/Din/DINRoundOT.otf);
+        src: url(../font/Din/DINRoundOT.otf);
         
 }
 @font-face {
         font-family: 'DINRoundOT-B';
-        src: url(/font/Din/DINRoundOT-Bold.otf);
+        src: url(../font/Din/DINRoundOT-Bold.otf);
         font-weight: bold;
 }
 @font-face {
         font-family: 'UTM';
-        src: url(/font/UTM-Futura-Extra.ttf);
+        src: url(../font/UTM-Futura-Extra.ttf);
         font-weight: bold;
 }
 
 @font-face{
         font-family: 'UTM-B';
-        src: url(/font/UTM-Futura-Extra.ttf);
+        src: url(../font/UTM-Futura-Extra.ttf);
         font-weight: 800px;
 }
 
