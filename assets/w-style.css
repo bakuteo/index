@@ -148,7 +148,7 @@ body{
     position: absolute;
     left: calc(50% - 5.88rem);
     width: 11.76rem;
-    height: 4rem;
+    height: 3rem;
     background: #DB320D;
     box-shadow: 0px 0.75rem 1.875rem rgba(0, 0, 0, 0.1);
     border-radius: 1.5rem;
@@ -278,7 +278,7 @@ body{
     color: #FFFFFF;
     position: absolute;
     width: 15.7rem;
-    height: 4rem;
+    height: 3rem;
     background: #DB320D;
     box-shadow: 0px 12px 30px rgb(0 0 0 / 10%);
     border-radius: 24px;
